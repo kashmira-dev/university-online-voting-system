@@ -50,39 +50,50 @@ A robust, secure, and production-ready Database-driven Voting System designed fo
 ---
 
 ## ⚡ ui/frontend
+
 <div align="center">
 
-<h3>🔑 Authentication & Voter Portal</h3>
+<h3>🔑 1. Voter Portal</h3>
 <p>
-  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/sign_page.png" target="_blank">
-    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/sign_page.png" width="45%" alt="Sign In Page" />
-  </a>
-  &nbsp;&nbsp;
+  <b>Role: Voter</b><br>
   <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter.png" target="_blank">
-    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter.png" width="45%" alt="Voter Dashboard" />
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter.png" width="85%" alt="Voter Dashboard" />
   </a>
 </p>
 
-<h3>🛡️ Administrative Dashboards (RBAC)</h3>
+<h3>⚡ 2. Super Admin Control Panel</h3>
 <p>
-  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/cheif_election_admin_page.png" target="_blank">
-    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/cheif_election_admin_page.png" width="45%" alt="Chief Election Officer" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter_manager.png" target="_blank">
-    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter_manager.png" width="45%" alt="Voter Manager" />
-  </a>
-</p>
-
-<h3>⚡ Super Admin Control Panel</h3>
-<p>
+  <b>Role: Super Admin</b><br>
   <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/super_admin_page.png" target="_blank">
-    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/super_admin_page.png" width="90%" alt="Super Admin Page" />
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/super_admin_page.png" width="85%" alt="Super Admin Page" />
+  </a>
+</p>
+
+<h3>🛡️ 3. Chief Election Officer Interface</h3>
+<p>
+  <b>Role: Chief Election Officer</b><br>
+  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/cheif_election_admin_page.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/cheif_election_admin_page.png" width="85%" alt="Chief Election Officer" />
+  </a>
+</p>
+
+<h3>👥 4. Voter Manager Interface</h3>
+<p>
+  <b>Role: Voter Manager</b><br>
+  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter_manager.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter_manager.png" width="85%" alt="Voter Manager" />
+  </a>
+</p>
+
+<h3>🔐 Authentication / Login Page</h3>
+<p>
+  <b>Access Portal</b><br>
+  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/sign_page.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/sign_page.png" width="85%" alt="Sign In Page" />
   </a>
 </p>
 
 </div>
-
 
 
 
