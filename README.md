@@ -52,21 +52,36 @@ A robust, secure, and production-ready Database-driven Voting System designed fo
 ## ⚡ ui/frontend
 <div align="center">
 
-# 🗳️ University Online Voting System
+<h3>🔑 Authentication & Voter Portal</h3>
+<p>
+  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/sign_page.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/sign_page.png" width="45%" alt="Sign In Page" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter.png" width="45%" alt="Voter Dashboard" />
+  </a>
+</p>
 
-[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL%2015%2B-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![React](https://img.shields.io/badge/Frontend-React.js-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![Node.js](https://img.shields.io/badge/Backend-Node.js%20%2F%20Express-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+<h3>🛡️ Administrative Dashboards (RBAC)</h3>
+<p>
+  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/cheif_election_admin_page.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/cheif_election_admin_page.png" width="45%" alt="Chief Election Officer" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter_manager.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/voter_manager.png" width="45%" alt="Voter Manager" />
+  </a>
+</p>
 
-  <p>
-    <a href="https://your-live-demo-link.com" target="_blank">🌐 <b>View Live Demo</b></a> •
-    <a href="https://github.com/kashmira-dev/university-online-voting-system" target="_blank">📂 <b>GitHub Repository</b></a>
-  </p>
+<h3>⚡ Super Admin Control Panel</h3>
+<p>
+  <a href="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/super_admin_page.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/kashmira-dev/university-online-voting-system/main/docs/super_admin_page.png" width="90%" alt="Super Admin Page" />
+  </a>
+</p>
 
 </div>
-
----
 
 
 
