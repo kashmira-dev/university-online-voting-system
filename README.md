@@ -49,10 +49,26 @@ A robust, secure, and production-ready Database-driven Voting System designed fo
 
 ---
 
-## ⚡ Performance Optimization Example
+## ⚡ ui/frontend
+<div align="center">
 
-```sql
--- Partial Index targeting only active elections for rapid lookup
-CREATE INDEX idx_ongoing_elections 
-ON elections(election_id) 
-WHERE status = 'Ongoing';
+# 🗳️ University Online Voting System
+
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL%2015%2B-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![React](https://img.shields.io/badge/Frontend-React.js-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Backend-Node.js%20%2F%20Express-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+
+  <p>
+    <a href="https://your-live-demo-link.com" target="_blank">🌐 <b>View Live Demo</b></a> •
+    <a href="https://github.com/kashmira-dev/university-online-voting-system" target="_blank">📂 <b>GitHub Repository</b></a>
+  </p>
+
+</div>
+
+---
+
+
+
+
+
