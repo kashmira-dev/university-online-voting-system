@@ -56,3 +56,33 @@ A robust, secure, and production-ready Database-driven Voting System designed fo
 CREATE INDEX idx_ongoing_elections 
 ON elections(election_id) 
 WHERE status = 'Ongoing';
+
+
+---
+
+## 🖥️ System User Interface Showcase
+
+<div align="center">
+
+### 🔑 Authentication & Voter Portal
+| Student Sign-In / Login | Student Voter Dashboard |
+| :---: | :---: |
+| <img src="./docs/sign%20page.png" width="420" alt="Sign In Page" /> | <img src="./docs/voter.png" width="420" alt="Voter Dashboard" /> |
+
+<br/>
+
+### 🛡️ Administrative Dashboards (RBAC)
+| Chief Election Officer Interface | Voter Manager Interface |
+| :---: | :---: |
+| <img src="./docs/cheif%20election%20admin%20page.png" width="420" alt="Chief Election Officer" /> | <img src="./docs/voter%20manager.png" width="420" alt="Voter Manager" /> |
+
+<br/>
+
+### ⚡ Super Admin Control Panel
+| Super Admin System Overview |
+| :---: |
+| <img src="./docs/super%20admin%20page.png" width="700" alt="Super Admin Page" /> |
+
+</div>
+
+---
