@@ -8,9 +8,9 @@ A robust, secure, and production-ready Database-driven Voting System designed fo
 
 - **Double-Voting Prevention**: Real-time intercept triggers (`trg_prevent_double_voting`) to block duplicate voting attempts.
 - **Audit Logging & Security Intercepts**: Automatically tracks security breach attempts and administrative actions in `audit_logs`.
-- **Minimum Candidate Check**: Enforces business rules at the DB layer via `initialize_election_cycle` procedure (verifying $\ge 2$ candidates before starting).
+- **Minimum Candidate Check**: Enforces business rules at the DB layer via `initialize_election_cycle` procedure.
 - **Partial B-Tree Indexing**: Utilizes `idx_ongoing_elections` (`WHERE status = 'Ongoing'`) to optimize active lookup queries during high-concurrency live voting.
-- **Role-Based Access Control (RBAC)**: Enforces Principle of Least Privilege (PoLP) using tailored roles like `Candidate_Manager`.
+- **Role-Based Access Control (RBAC)**: Enforces Principle of Least Privilege (PoLP) using tailored administrative roles.
 - **Analytical UDFs**: Custom PL/pgSQL functions for calculating overall campus voter turnout percentage and determining election winners dynamically.
 
 ---
@@ -56,33 +56,3 @@ A robust, secure, and production-ready Database-driven Voting System designed fo
 CREATE INDEX idx_ongoing_elections 
 ON elections(election_id) 
 WHERE status = 'Ongoing';
-
-
----
-
-## 🖥️ System User Interface Showcase
-
-<div align="center">
-
-### 🔑 Authentication & Voter Portal
-| Student Sign-In / Login | Student Voter Dashboard |
-| :---: | :---: |
-| <img src="./docs/sign%20page.png" width="420" alt="Sign In Page" /> | <img src="./docs/voter.png" width="420" alt="Voter Dashboard" /> |
-
-<br/>
-
-### 🛡️ Administrative Dashboards (RBAC)
-| Chief Election Officer Interface | Voter Manager Interface |
-| :---: | :---: |
-| <img src="./docs/cheif%20election%20admin%20page.png" width="420" alt="Chief Election Officer" /> | <img src="./docs/voter%20manager.png" width="420" alt="Voter Manager" /> |
-
-<br/>
-
-### ⚡ Super Admin Control Panel
-| Super Admin System Overview |
-| :---: |
-| <img src="./docs/super%20admin%20page.png" width="700" alt="Super Admin Page" /> |
-
-</div>
-
----
